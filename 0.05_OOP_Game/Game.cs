@@ -84,7 +84,7 @@ namespace _0._05_OOP_Game {
                 doAction(currentCommand);
             }
             else {
-                Console.WriteLine("\nNope. Time to quit.\n")
+                Console.WriteLine("\nNope. Time to quit.\n");
             }
         }
     }
