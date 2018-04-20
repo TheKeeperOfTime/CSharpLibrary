@@ -6,15 +6,31 @@ using System.Threading.Tasks;
 
 namespace _0._05_OOP_Game {
     class Item {
-        public Item(string itemName, decimal weight, string description) {
-            this.ItemName = itemName;
-            this.Weight = weight;
-            this.Description = description;
+
+        //Properties
+        public string name;
+        private bool useable;
+        private bool needsItem;
+        private string description;
+
+        //Item constructor
+        public Item(string _name, bool canUse, string _description) {
+            name = _name;
+            useable = canUse;
+            description = _description;
         }
 
-        public string ItemName { get; set; }
-        public decimal Weight { get; set; }
-        public string Description { get; set; }
+        //Getters and setters
+        public string Name {
+            get { return name; }
+        }
 
+        public bool Useable {
+            get { return useable; }
+        }
+
+        public string Description {
+            get { return description; }
+        }
     }
 }

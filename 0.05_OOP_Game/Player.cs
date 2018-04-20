@@ -5,22 +5,23 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _0._05_OOP_Game {
+
+    enum PlayerClasses {
+        Fighter,
+        Rogue,
+        Mage
+    }
+
     class Player : Character {
 
-        //Props
-        public string PlayerName { get; set; }
-        public int PlayerLevel { get; set; }
-        public int PlayerCurrentPower { get; set; }
-        public int PlayerHealth { get; set; }
-        public string PlayerType { get; set; }
+        //Properties 
 
         //Constructor
-        public Player(string firstName, string playerType, int health, int level, int currentPower) {
-            this.PlayerName = firstName;
-            this.PlayerType = playerType;
-            this.PlayerLevel = level;
-            this.PlayerCurrentPower = currentPower;
-            this.PlayerHealth = health;
+        public Player(string name, string playerClass, int health, int level) {
+            this.Name = name;
+            this.CharacterClass = playerClass;
+            this.Level = level;
+            this.Health = health;
         }
 
         public void Attack(int points, string weaponType) {

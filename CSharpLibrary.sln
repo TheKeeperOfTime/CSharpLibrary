@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.12_Enums", "0.12_Enums\0.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.13_GettersAndSetters", "0.13_GettersAndSetters\0.13_GettersAndSetters.csproj", "{1A8C919F-CBA5-4169-829C-AB6F5CFD1C14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surveyor_Calc", "..\Surveyor_Calc\Surveyor_Calc.csproj", "{A9460BF6-18EA-4C14-841C-A67246B9221D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{1A8C919F-CBA5-4169-829C-AB6F5CFD1C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A8C919F-CBA5-4169-829C-AB6F5CFD1C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A8C919F-CBA5-4169-829C-AB6F5CFD1C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9460BF6-18EA-4C14-841C-A67246B9221D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9460BF6-18EA-4C14-841C-A67246B9221D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9460BF6-18EA-4C14-841C-A67246B9221D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9460BF6-18EA-4C14-841C-A67246B9221D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
